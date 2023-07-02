@@ -1,0 +1,12 @@
+{
+  "include": [
+    "*/*.ts",
+    "*.ts",
+    ".eslintrc"
+  ],
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "declaration": true,
+  }
+}

@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  bot:
+    build: .
+    environment:
+      ChatGPT_API_KEY: ''
+      BOT_TOKEN: ''
+      ADMINS: ''
+    container_name: chatgpt_bot
+    restart: always
+    volumes:
+      - ./db:/app/db
+    working_dir: /app
