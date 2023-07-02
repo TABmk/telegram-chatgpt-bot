@@ -5,7 +5,7 @@ services:
     environment:
       ChatGPT_API_KEY: ''
       BOT_TOKEN: ''
-      ADMINS: ''
+      ADMIN: ''
     container_name: chatgpt_bot
     restart: always
     volumes:
